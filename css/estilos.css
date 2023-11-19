@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@300;400;600;700 & display=swap');
+
+body{
+   background-image: url(/img/fondo\ \(M\).png);
+    
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.img-cont{
+    width: 600px;
+    position:fixed;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.contenedor{
+    --padding-container:0;
+    grid-auto-rows: max-content;
+    align-content: center;
+    gap: 1em;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+
+
+.contenedor h1{
+    font-size: 3.0rem;
+    margin-bottom: 10px;
+    color: #413E4D;
+    text-align: center;
+}
+
+.contenedor2{
+    position:relative;
+    height: auto;
+    width: auto;
+    text-align: center;
+    flex-direction: column;
+   
+}
+
+.contenedor3{
+    position: relative;
+    height: 152px;
+    width: 396px;
+    border: 2px solid #f0f0f029;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 20px #00000029;
+}
+
+.input-contenedor{
+    position: relative;
+    margin: 14px ;
+    width: 0;
+    
+}
+
+.input-contenedor label{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #8b8b8b;
+    font-size: 0.8rem;
+    pointer-events: none;
+    transition: .6s;
+    font-family: 'Poppins', sans-serif;
+}
+
+input:focus ~ label,
+input:valid ~ label{
+    top: 7px;
+}
+
+.input-contenedor input{
+    width: 366px;
+    height: 54px;
+    border: 1px solid #ABB9C780;
+    border-radius: 10px;
+    outline: none;
+}
+
+.cta{
+    display: inline-block;
+    background-color: #DD3542;
+    color: #fff;
+    justify-self: center;
+    text-decoration: none;
+    padding: 18px 74px;
+    border-radius: 32px;
+    margin-top: 30px;
+}
+
+
+.olvidar{
+    margin: 25px;
+    font-style: .9em;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.olvidar label a{
+    color: #707070;
+    font-size: .9em;
+}
+
+.img-gats{
+    height: 40%;
+}
